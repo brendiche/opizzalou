@@ -59,3 +59,35 @@ background-color: #fff2cc;
 .content{
     margin-top: 50px;
 }
+.nom-pizza{
+    color :#5C7558;
+    font-size: 23px;
+    font-weight: bold;
+}
+.ingredients{
+
+}
+.prix{
+    text-align: center;
+    font-weight: bold;
+    font-size: 23px;
+}
+.prix-grande{
+    border-left:1px solid black;
+
+}
+.prix-petite{
+    border-right:1px solid black;
+}
+.pizza-header{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    border-bottom: 1px solid black!important;
+}
+.ph-left{
+    border-right: 1px solid black;
+}
+.ph-right{
+    border-left: 1px solid black;
+}
