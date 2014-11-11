@@ -1,14 +1,18 @@
 .navbar{
 	background-color: #fff2cc!important;
 }
+#sidebar-wrapper {
+z-index: 1000;
+position: fixed;
+height: 100%;
+background-color: #fff2cc;
+}
 .sidebar-nav {
-	background-color: #fff2cc;
     position: absolute;
-    top: 50px;
+    top: 0px;
     margin: 0;
     padding: 0;
     list-style: none;
-    height: 100%;
 }
 
 .sidebar-nav li {
@@ -50,4 +54,7 @@
 .logo{
 	height: 49px;
 	background-color:red;
+}
+.content{
+    margin-top: 50px;
 }
