@@ -29,12 +29,22 @@
 	</div>
 	<div class="content col-lg-offset-2">
 		<div id="contenu" class="container-fluid">
-			lkdflksfhlsqhsqdjl
+			lkdflksfhlsqhsqdjl <br>
+			sfskl
 		</div>
 	</div>
 </body>
 
 <script type="text/javascript">
-	
+	$('document').ready(function(){
+		/* $('#Acceuil').click(function(){
+            $.get('assets/pages/'+lang+'/acceuil.html',function(data){
+                $('.contenu').html(data);
+            },'html');
+         });*/
+	$.get('/pages/pizza.html',function(data){
+            $('#contenu').html(data);
+    },'html');
+	});
 </script>
 </html>
