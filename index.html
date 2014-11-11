@@ -19,12 +19,12 @@
 	</nav>
 	<div id="sidebar-wrapper" class="col-lg-2">
 		<ul class="sidebar-nav">
-			<li>Pizzas</li>
-			<li>Paninis</li>
-			<li>Tartines</li>
-			<li>Salades</li>
-			<li>Desserts</li>
-			<li>Boissons</li>
+			<li id="pizza">Pizzas</li>
+			<li id="panini">Paninis</li>
+			<li id="tartine">Tartines</li>
+			<li id="salade">Salades</li>
+			<li id="dessert">Desserts</li>
+			<li id="boisson">Boissons</li>
 		</ul>	
 	</div>
 	<div class="content col-lg-offset-2">
@@ -37,11 +37,36 @@
 
 <script type="text/javascript">
 	$('document').ready(function(){
-		/* $('#Acceuil').click(function(){
-            $.get('assets/pages/'+lang+'/acceuil.html',function(data){
-                $('.contenu').html(data);
+		$('#pizza').click(function(){
+            $.get('pages/pizza.html',function(data){
+                $('#contenu').html(data);
             },'html');
-         });*/
+         });
+		$('#panini').click(function(){
+            $.get('pages/panini.html',function(data){
+                $('#contenu').html(data);
+            },'html');
+         });
+		$('#tartine').click(function(){
+            $.get('pages/tartine.html',function(data){
+                $('#contenu').html(data);
+            },'html');
+         });
+		$('#salade').click(function(){
+            $.get('pages/salade.html',function(data){
+                $('#contenu').html(data);
+            },'html');
+         });
+		$('#dessert').click(function(){
+            $.get('pages/dessert.html',function(data){
+                $('#contenu').html(data);
+            },'html');
+         });
+		$('#boisson').click(function(){
+            $.get('pages/boisson.html',function(data){
+                $('#contenu').html(data);
+            },'html');
+         });
 	$.get('/pages/pizza.html',function(data){
             $('#contenu').html(data);
     },'html');
