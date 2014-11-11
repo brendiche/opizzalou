@@ -87,7 +87,15 @@ background-color: #fff2cc;
 }
 .ph-left{
     border-right: 1px solid black;
+    width: 30px!important;
 }
 .ph-right{
     border-left: 1px solid black;
+}
+.title{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 36px;
+    color: red;
+    text-decoration: underline; 
 }
