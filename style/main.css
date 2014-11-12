@@ -54,7 +54,7 @@ background-color: #fff2cc;
 }
 .logo{
 	height: 49px;
-	background-color:red;
+    padding: 0px!important;
 }
 .content{
     margin-top: 50px;
