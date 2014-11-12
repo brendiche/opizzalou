@@ -61,7 +61,7 @@ background-color: #fff2cc;
 }
 .nom-pizza{
     color :#5C7558;
-    font-size: 23px;
+    font-size: 25px;
     font-weight: bold;
 }
 .ingredients{
@@ -74,10 +74,12 @@ background-color: #fff2cc;
 }
 .prix-grande{
     border-left:1px solid black;
+    border-top:none!important; 
 
 }
 .prix-petite{
     border-right:1px solid black;
+    border-top:none!important; 
 }
 .pizza-header{
     text-align: center;
