@@ -54,14 +54,14 @@ background-color: #fff2cc;
 }
 .logo{
 	height: 49px;
-	background-color:red;
+    padding: 0px!important;
 }
 .content{
     margin-top: 50px;
 }
 .nom-pizza{
-    color :#5C7558;
-    font-size: 23px;
+    color :#254220;
+    font-size: 25px;
     font-weight: bold;
 }
 .ingredients{
@@ -74,10 +74,12 @@ background-color: #fff2cc;
 }
 .prix-grande{
     border-left:1px solid black;
+    border-top:none!important; 
 
 }
 .prix-petite{
     border-right:1px solid black;
+    border-top:none!important; 
 }
 .pizza-header{
     text-align: center;
@@ -96,6 +98,6 @@ background-color: #fff2cc;
     margin-top: 20px;
     margin-bottom: 10px;
     font-size: 36px;
-    color: red;
+    color: #B50000;
     text-decoration: underline; 
 }
