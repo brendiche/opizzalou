@@ -1,0 +1,111 @@
+/* ribbon style */
+
+.navbar .ribbon-wrapper {
+	position: relative;
+	top:80px;
+}
+.navbar  .ribbon-front {
+	background-color: #F53035;
+	height: 40px;
+	position: relative;
+	z-index: 2;
+	
+}
+.navbar  .ribbon-front-right {
+	right: -20px;
+	height: 40px;
+	width: 20px;
+	top:0px;
+	background-color:#F53035  ;
+	position: absolute;
+	z-index: 1;
+}
+.navbar  .ribbon-front-left {
+	left: -20px;
+	height: 40px;
+	width: 20px;
+	top:0px;
+	background-color:#F53035  ;
+	position: absolute;
+	z-index: 1;
+
+}
+
+.navbar  .ribbon-front,
+.navbar  .ribbon-back-left,
+.navbar  .ribbon-back-right,
+.navbar  .ribbon-front-right,
+.navbar  .ribbon-front-left 
+{
+	-moz-box-shadow: 0px 3px 5px -3px #656565;
+	-webkit-box-shadow: 0px 3px 5px -3px #656565;
+	-o-box-shadow: 0px 3px 5px -2px #656565;
+	box-shadow: 0px 3px 5px -2px #656565;
+	filter:progid:DXImageTransform.Microsoft.Shadow(color=#656565, Direction=180, Strength=5);
+}
+
+.navbar  .ribbon-edge-topleft,
+.navbar  .ribbon-edge-topright,
+.navbar  .ribbon-edge-bottomleft,
+.navbar  .ribbon-edge-bottomright {
+	position: absolute;
+	z-index: 1;
+	border-style:solid;
+	height:0px;
+	width:0px;
+}
+
+.navbar  .ribbon-edge-topleft,
+.navbar  .ribbon-edge-topright {
+}
+
+.navbar  .ribbon-edge-bottomleft,
+.navbar  .ribbon-edge-bottomright {
+	top: 40px;
+}
+
+.navbar  .ribbon-edge-topleft,
+.navbar  .ribbon-edge-bottomleft {
+	left: -20px;
+	border-color: transparent #CE0E13 transparent transparent;
+}
+
+.navbar  .ribbon-edge-topleft {
+	top: -10px;
+	border-width: 10px 20px 0 0;
+}
+.navbar  .ribbon-edge-bottomleft {
+	border-width: 0 20px 0px 0;
+}
+
+.navbar  .ribbon-edge-topright,
+.navbar  .ribbon-edge-bottomright {
+	right:-20px;
+	border-color: transparent transparent transparent #CE0E13;
+}
+
+.navbar  .ribbon-edge-topright {
+	top: -10px;
+	border-width: 10px 0 0 20px;
+}
+.navbar  .ribbon-edge-bottomright {
+	border-width: 0 0 0px 20px;
+}
+
+.navbar  .ribbon-back-left {
+	position: absolute;
+	top: -10px;
+	left: 0px;
+	width: 0px;
+	height: 40px;
+		z-index: 0;
+}
+
+.navbar  .ribbon-back-right {
+	position: absolute;
+	top: -10px;
+	right: 0px;
+	width: 0px;
+	height: 40px;
+		z-index: 0;
+}
