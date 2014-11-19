@@ -3,20 +3,44 @@
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="./style/bootstrap/css/bootstrap.min.css" />
 	<link rel="stylesheet" type="text/css" href="./style/main.css" />
+	<link rel="stylesheet" type="text/css" href="./style/bandeau.css" />
 	 <script src="./style/bootstrap/js/jquery.min.js"></script>
 	<title>O'pizzalou</title>
 </head>
 <body>
 	<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-			<div class="col-lg-2 col-md-2 col-xs-2 logo" >
-				<img src="./img/logo.jpg" height=49 width=100%>
+		<div class="col-lg-2 col-md-2 col-xs-2 logo" >
+			<img src="./img/logo.jpg" height=80 width=100%>
+		</div>
+		<div class="col-lg-10 col-md-10 col-xs-10" >
+			<img src="./img/address.png" height=20 class="nav-icon">
+			<p class="nav-txt">32, rue Paul Lecacheux <br>50310  MONTEBOURG </p>
+			<img src="./img/tel.png" height=20 class="nav-icon">
+			<p class="nav-txt"> 02 33 04 40 68</p>
+		</div>
+		<div class="ribbon-wrapper">
+			<div class="ribbon-front">
+				<ul class="list-inline bandeau">
+					<li id="pizza">Pizzas</li>
+					<li id="panini">Paninis</li>
+					<li id="tartine">Tartines</li>
+					<li id="salade">Salades</li>
+					<li id="dessert">Desserts</li>
+					<li id="boisson">Boissons</li>
+				</ul> 
 			</div>
-
-			<div class="col-lg-10 col-md-10 col-xs-10">
-				32, rue Paul Lecacheux 50310 - MONTEBOURG Tél.: 02 33 04 40 68
-			</div>
+			<div class="ribbon-front-left"></div>
+			<div class="ribbon-front-right"></div>
+			<div class="ribbon-edge-topleft"></div>
+			<div class="ribbon-edge-topright"></div>
+			<div class="ribbon-edge-bottomleft"></div>
+			<div class="ribbon-edge-bottomright"></div>
+			<div class="ribbon-back-left"></div>
+			<div class="ribbon-back-right"></div>
+		</div>
 	</nav>
-	<div id="sidebar-wrapper" class="col-lg-2 col-md-2 col-xs-2">
+
+<!-- 	<div id="sidebar-wrapper" class="col-lg-2 col-md-2 col-xs-2">
 		<ul class="sidebar-nav">
 			<li id="pizza">Pizzas</li>
 			<li id="panini">Paninis</li>
@@ -25,8 +49,9 @@
 			<li id="dessert">Desserts</li>
 			<li id="boisson">Boissons</li>
 		</ul>	
-	</div>
-	<div class="content col-lg-offset-2 col-md-offset-2 col-xs-offset-2">
+	</div> -->
+
+	<div class="content">
 		<div id="contenu" class="container-fluid">	
 		</div>
 	</div>
