@@ -6,14 +6,14 @@
 }
 .navbar  .ribbon-front {
 	background-color: #F53035;
-	height: 40px;
+	height: 42px;
 	position: relative;
 	z-index: 2;
 	
 }
 .navbar  .ribbon-front-right {
 	right: -20px;
-	height: 40px;
+	height: 42px;
 	width: 20px;
 	top:0px;
 	background-color:#F53035  ;
@@ -22,7 +22,7 @@
 }
 .navbar  .ribbon-front-left {
 	left: -20px;
-	height: 40px;
+	height: 42px;
 	width: 20px;
 	top:0px;
 	background-color:#F53035  ;
