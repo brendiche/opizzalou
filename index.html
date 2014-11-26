@@ -4,7 +4,8 @@
 	<link rel="stylesheet" type="text/css" href="./style/bootstrap/css/bootstrap.min.css" />
 	<link rel="stylesheet" type="text/css" href="./style/main.css" />
 	<link rel="stylesheet" type="text/css" href="./style/bandeau.css" />
-	 <script src="./style/bootstrap/js/jquery.min.js"></script>
+	<script src="./style/bootstrap/js/jquery.min.js"></script>
+	<script src="./js/main.js"></script>
 	<title>O'pizzalou</title>
 </head>
 <body>
@@ -21,7 +22,8 @@
 		<div class="ribbon-wrapper">
 			<div class="ribbon-front">
 				<ul class="list-inline bandeau">
-					<li id="pizza" style="margin-left:10px;">Pizzas</li>
+					<li id="accueil" style="margin-left:10px;">Accueil</li>
+					<li id="pizza" >Pizzas</li>
 					<li id="panini">Paninis</li>
 					<li id="tartine">Tartines</li>
 					<li id="salade">Salades</li>
@@ -40,64 +42,9 @@
 		</div>
 	</nav>
 
-<!-- 	<div id="sidebar-wrapper" class="col-lg-2 col-md-2 col-xs-2">
-		<ul class="sidebar-nav">
-			<li id="pizza">Pizzas</li>
-			<li id="panini">Paninis</li>
-			<li id="tartine">Tartines</li>
-			<li id="salade">Salades</li>
-			<li id="dessert">Desserts</li>
-			<li id="boisson">Boissons</li>
-		</ul>	
-	</div> -->
-
 	<div class="content">
 		<div id="contenu" class="container-fluid">	
 		</div>
 	</div>
 </body>
-
-<script type="text/javascript">
-	$('document').ready(function(){
-		$('#pizza').click(function(){
-			$('html,body').animate({scrollTop: -50});
-            $.get('pages/pizza.html',function(data){
-                $('#contenu').html(data);
-            },'html');
-         });
-		$('#panini').click(function(){
-			$('html,body').animate({scrollTop: -50});
-            $.get('pages/panini.html',function(data){
-                $('#contenu').html(data);
-            },'html');
-         });
-		$('#tartine').click(function(){
-			$('html,body').animate({scrollTop: -50});
-            $.get('pages/tartine.html',function(data){
-                $('#contenu').html(data);
-            },'html');
-         });
-		$('#salade').click(function(){
-			$('html,body').animate({scrollTop: -50});
-            $.get('pages/salade.html',function(data){
-                $('#contenu').html(data);
-            },'html');
-         });
-		$('#dessert').click(function(){
-			$('html,body').animate({scrollTop: -50});
-            $.get('pages/dessert.html',function(data){
-                $('#contenu').html(data);
-            },'html');
-         });
-		$('#boisson').click(function(){
-			$('html,body').animate({scrollTop: -50});
-            $.get('pages/boisson.html',function(data){
-                $('#contenu').html(data);
-            },'html');
-         });
-	$.get('/pages/pizza.html',function(data){
-            $('#contenu').html(data);
-    },'html');
-	});
-</script>
 </html>

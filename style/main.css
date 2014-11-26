@@ -2,6 +2,23 @@ body{
     background-color: #FFE154;
 
 }
+li{
+    cursor: pointer;
+    width: 100px;
+    text-align: center;
+    font-family: "Hobo Std";
+    background-color: #BD1115;
+    padding : 4px 0;
+    margin-top: -5px;
+    margin-right: 10px;
+    border-radius: 3px;
+}
+li:hover{
+    background-color: #FD7679;
+}
+p{
+ font-family: "Hobo Std";
+}
 .navbar{
 	background-color:  #FFE154!important;
     margin-left: auto;
@@ -97,20 +114,7 @@ body{
     position: relative;
     top: -70px;
 }
-li{
-    cursor: pointer;
-    width: 15%;
-    text-align: center;
-    font-family: "Hobo Std";
-    background-color: #BD1115;
-    padding : 4px 0;
-    margin-top: -5px;
-    margin-right: 15px;
-    border-radius: 3px;
+.formule{
+    border: dashed;
 }
-li:hover{
-    background-color: #FD7679;
-}
-p{
- font-family: "Hobo Std";
-}
+
