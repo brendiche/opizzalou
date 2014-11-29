@@ -1,5 +1,5 @@
 body{
-    background-color: #FFE154;
+    background-color: #CE0B0B;
 
 }
 li{
@@ -7,7 +7,8 @@ li{
     width: 100px;
     text-align: center;
     font-family: "Hobo Std";
-    background-color: #13A80B;
+    background-color: #CE0B0B;
+    color:white;
     padding : 4px 0;
     margin-top: -5px;
     margin-right: 10px;
@@ -19,8 +20,11 @@ li:hover{
 p{
  font-family: "Hobo Std";
 }
+.active{
+    background-color: #53C247;
+}
 .navbar{
-	background-color:  #FFE154!important;
+	background-color:  #CE0B0B!important;
     margin-left: auto;
     margin-right: auto;
     height:110px;
