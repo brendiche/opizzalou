@@ -65,6 +65,7 @@ p{
 }
 .ingredients{
     font-family: "Adobe Gurmukhi";
+    font-size: 18px;
 }
 .prix{
     text-align: center;
@@ -115,12 +116,33 @@ p{
 .nav-txt{
     margin-left: 46px;
     color :#BD1115;
-    font-family: "Lucida handwriting"}
+    font-family: "Lucida handwriting";
+    font-weight: bold;
+}
 .bandeau{
     position: relative;
     top: -70px;
 }
 .formule{
     border: dashed;
+    text-align: center;
+    margin-bottom: 15px;
+    padding: 10px;
 }
+.formule-titre{
+    font-weight: bold;
+    font-size: 18px;
+}
+.image{
+    -moz-box-shadow: 4px 4px 10px -1px #656565;
+    -webkit-box-shadow: 4px 4px 10px -1px #656565;
+    -o-box-shadow: 4px 4px 10px -1px #656565;
+    box-shadow: 4px 4px 10px -1px #656565;
+    filter:progid:DXImageTransform.Microsoft.Shadow(color=#656565, Direction=134, Strength=10);
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    border:1px solid black;
 
+}
+/*http://paletton.com/#uid=1000u0kujpT00FS00dy006-Vc1c*/
