@@ -5,7 +5,7 @@
 	top:80px;
 }
 .navbar  .ribbon-front {
-	background-color: #F53035;
+	background-color: #343434;
 	height: 42px;
 	position: relative;
 	z-index: 2;
@@ -16,7 +16,7 @@
 	height: 42px;
 	width: 20px;
 	top:0px;
-	background-color:#F53035  ;
+	background-color:#343434  ;
 	position: absolute;
 	z-index: 1;
 }
@@ -25,7 +25,7 @@
 	height: 42px;
 	width: 20px;
 	top:0px;
-	background-color:#F53035  ;
+	background-color:#343434  ;
 	position: absolute;
 	z-index: 1;
 
@@ -37,11 +37,11 @@
 .navbar  .ribbon-front-right,
 .navbar  .ribbon-front-left 
 {
-	-moz-box-shadow: 0px 3px 5px -3px #656565;
-	-webkit-box-shadow: 0px 3px 5px -3px #656565;
-	-o-box-shadow: 0px 3px 5px -2px #656565;
-	box-shadow: 0px 3px 5px -2px #656565;
-	filter:progid:DXImageTransform.Microsoft.Shadow(color=#656565, Direction=180, Strength=5);
+	-moz-box-shadow: 0px 3px 5px -3px #343434;
+	-webkit-box-shadow: 0px 3px 5px -3px #343434;
+	-o-box-shadow: 0px 3px 5px -2px #343434;
+	box-shadow: 0px 3px 5px -2px #343434;
+	filter:progid:DXImageTransform.Microsoft.Shadow(color=#343434, Direction=180, Strength=5);
 }
 
 .navbar  .ribbon-edge-topleft,
@@ -67,7 +67,7 @@
 .navbar  .ribbon-edge-topleft,
 .navbar  .ribbon-edge-bottomleft {
 	left: -20px;
-	border-color: transparent #CE0E13 transparent transparent;
+	border-color: transparent #343434 transparent transparent;
 }
 
 .navbar  .ribbon-edge-topleft {
@@ -81,7 +81,7 @@
 .navbar  .ribbon-edge-topright,
 .navbar  .ribbon-edge-bottomright {
 	right:-20px;
-	border-color: transparent transparent transparent #CE0E13;
+	border-color: transparent transparent transparent #343434;
 }
 
 .navbar  .ribbon-edge-topright {
