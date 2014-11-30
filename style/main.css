@@ -1,6 +1,6 @@
 body{
 
-    background: url(../img/feu.jpg);
+    background-color: #CE0B0B;
 }
 li{
     cursor: pointer;
@@ -24,7 +24,7 @@ p{
     background-color: #53C247;
 }
 .navbar{
-	 background: url(../img/feu.jpg);
+	  background-color: #CE0B0B;
     margin-left: auto;
     margin-right: auto;
     height:110px;
@@ -33,7 +33,7 @@ p{
     padding-top:20px;
 }
 .logo{
-    background-color: #FFFFFF;
+    background: url(../img/vieux-papier.jpg);
     padding: 0px!important;
     border-left: 2px solid black;
     border-top: 2px solid black;
@@ -41,14 +41,15 @@ p{
 .nav-rest{
     border-top: 2px solid black;
     border-right: 2px solid black;
-    background-color: #FFFFFF;
+    background: url(../img/vieux-papier.jpg);
 }
 .content{
     width: 87%;
     margin-left: auto;
     margin-right: auto;
     margin-top: 129px;
-    background-color: #FFFFFF   ;
+    /*background-color: #FFFFFF   ;*/
+    background: url(../img/vieux-papier.jpg);
     border-left: 2px solid black;
     border-right: 2px solid black;
     border-bottom: 2px solid black;
@@ -145,5 +146,9 @@ p{
     border-radius: 5px;
     border:1px solid black;
 
+}
+@font-face {
+    font-family: "Hobo Std";
+    src: url("/img/polices/glyphal/glyphaltstd-light.eot") format("embedded-opentype"), url("/img/polices/glyphal/glyphaltstd-light.woff") format("woff"), url("/img/polices/glyphal/glyphaltstd-light.ttf") format("truetype"), url("/img/polices/glyphal/glyphaltstd-light.svg#GlyphaLTStd45Light") format("svg");
 }
 /*http://paletton.com/#uid=1000u0kujpT00FS00dy006-Vc1c*/
