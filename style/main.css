@@ -1,5 +1,5 @@
 body{
-    background-color: #CE0B0B;
+    background: url(../img/feu.jpg);
 
 }
 li{
@@ -24,7 +24,7 @@ p{
     background-color: #53C247;
 }
 .navbar{
-	background-color:  #CE0B0B!important;
+	 background: url(../img/feu.jpg);
     margin-left: auto;
     margin-right: auto;
     height:110px;
@@ -48,7 +48,7 @@ p{
     margin-left: auto;
     margin-right: auto;
     margin-top: 129px;
-    background-color: #FFFFFF;
+    background-color: #FFFFFF   ;
     border-left: 2px solid black;
     border-right: 2px solid black;
     border-bottom: 2px solid black;
@@ -102,7 +102,7 @@ p{
     margin-top: 20px;
     margin-bottom: 10px;
     font-size: 36px;
-    color: #F53035;
+    color: #CE0B0B;
     text-decoration: underline; 
     font-family: "Hobo Std";
 }
@@ -128,6 +128,7 @@ p{
     text-align: center;
     margin-bottom: 15px;
     padding: 10px;
+    border-radius: 5px;
 }
 .formule-titre{
     font-weight: bold;
