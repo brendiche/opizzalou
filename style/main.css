@@ -149,6 +149,6 @@ p{
 }
 @font-face {
     font-family: "Hobo Std";
-    src: url("/img/polices/glyphal/glyphaltstd-light.eot") format("embedded-opentype"), url("/img/polices/glyphal/glyphaltstd-light.woff") format("woff"), url("/img/polices/glyphal/glyphaltstd-light.ttf") format("truetype"), url("/img/polices/glyphal/glyphaltstd-light.svg#GlyphaLTStd45Light") format("svg");
+    src: url("./font/HoboStd.otf") format("embedded-opentype");
 }
 /*http://paletton.com/#uid=1000u0kujpT00FS00dy006-Vc1c*/
