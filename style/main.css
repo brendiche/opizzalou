@@ -33,7 +33,7 @@ p{
     padding-top:20px;
 }
 .logo{
-    background: url(../img/vieux-papier.jpg);
+    background: url(../img/vieux-papier-clair.jpg);
     padding: 0px!important;
     border-left: 2px solid black;
     border-top: 2px solid black;
@@ -41,7 +41,7 @@ p{
 .nav-rest{
     border-top: 2px solid black;
     border-right: 2px solid black;
-    background: url(../img/vieux-papier.jpg);
+    background: url(../img/vieux-papier-clair.jpg);
 }
 .content{
     width: 87%;
@@ -49,7 +49,7 @@ p{
     margin-right: auto;
     margin-top: 129px;
     /*background-color: #FFFFFF   ;*/
-    background: url(../img/vieux-papier.jpg);
+    background: url(../img/vieux-papier-clair.jpg);
     border-left: 2px solid black;
     border-right: 2px solid black;
     border-bottom: 2px solid black;
