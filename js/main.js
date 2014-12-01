@@ -55,10 +55,11 @@ $('document').ready(function(){
         disable();
         $(this).addClass("active");
      });
-	$.get('/pages/accueil.html',function(data){
+	$.get('pages/accueil.html',function(data){
             $('#contenu').html(data);
     },'html');
-    function disable(){
+  
+});
+  function disable(){
         $("li").removeClass();
     }
-});
