@@ -149,6 +149,6 @@ p{
 }
 @font-face {
     font-family: "Hobo Std";
-    src: url("./font/HoboStd.otf") format("embedded-opentype");
+    src: url("./font/HoboStd.otf");
 }
 /*http://paletton.com/#uid=1000u0kujpT00FS00dy006-Vc1c*/
