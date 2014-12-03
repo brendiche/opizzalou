@@ -152,6 +152,40 @@ p{
     border:1px solid black;
 
 }
+#feedback { 
+  height: 104px; 
+  width: 104px; 
+  position: fixed; 
+  top: 70%; 
+  z-index: 999;
+  transform: rotate(-90deg);
+  -webkit-transform: rotate(-90deg); 
+  -moz-transform: rotate(-90deg); 
+  -o-transform: rotate(-90deg); 
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+
+#feedback a { 
+  display: block; 
+  background: #1E8C13; 
+  height: 36px; 
+  width: 180px; 
+  color: #fff;  
+  font-size: 17px; 
+  font-weight: bold; 
+  padding-top: 3px;
+  text-decoration: none; 
+  border-bottom: solid 1px #343434;
+  border-left: solid 1px #343434;
+  border-right: solid 1px #fff;
+  text-align: center;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+#feedback a:hover { 
+  background: #53C247; 
+}
 @font-face {
     font-family: "Hobo Std";
     src: url("./font/HoboStd.otf");
