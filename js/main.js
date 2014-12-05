@@ -58,8 +58,31 @@ $('document').ready(function(){
 	$.get('pages/accueil.html',function(data){
             $('#contenu').html(data);
     },'html');
+    $("#email-form").hide();
+    $("#overlay").hide();
+    $( "#feedback" ).click(function( ) {
+        $("#email-form").toggle();
+        $("#overlay").toggle();
+
+    });
+    $(".close-button").click(function(){
+        $("#email-form").toggle();
+        $("#overlay").toggle();        
+    });
+    //        $('body').on({
+    //     'mousewheel': function(e) {
+    // if (e.target.id == 'feedback') return;
+    // e.preventDefault();
+    // e.stopPropagation();
+    // }
+
+// })
   
 });
   function disable(){
         $("li").removeClass();
     }
+ 
+
+
+    
