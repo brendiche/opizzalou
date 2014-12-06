@@ -23,6 +23,18 @@ p{
 .active{
     background-color: #53C247;
 }
+.opizalou{
+  font-family: "Lucida handwriting";
+  font-size: 37px;
+  color:#CE0B0B;
+  text-shadow: 2px 2px 2px black;
+}
+.feu-de-bois{
+  font-family: "Lucida handwriting";
+  font-size: 17px; 
+  color:#CE0B0B;
+  text-shadow: 2px 2px 2px black;
+}
 .navbar{
 	  background-color: #CE0B0B;
     margin-left: auto;
@@ -37,6 +49,7 @@ p{
     padding: 0px!important;
     border-left: 2px solid #343434;
     border-top: 2px solid #343434;
+    min-height: 80px;
 }
 .nav-rest{
     border-top: 2px solid #343434;
@@ -191,7 +204,7 @@ p{
   height: 50%;
   position: absolute;
   z-index: 3000;
-  top:40%;
+  top:25%;
   left: 35%;
   background-color: #fff;
   border-radius: 5px;
@@ -221,18 +234,27 @@ p{
 }
 .txt-header{
   font-weight: bold;
+  font-size: 18px;
 }
 .form-content{
   padding: 10px;
 }
 .row-form{
-  margin-top: 5px;
+  margin-top: 10px;
 }
-.commentaire{
-  width: 100%;
+.txt-form{
+  margin-bottom: 0px;
+}
+.input{
+  border-radius: 5px;
+  width : 100%;
 }
 @font-face {
     font-family: "Hobo Std";
     src: url("./font/HoboStd.otf");
+}
+@font-face {
+    font-family: "Lucida handwriting";
+    src: url("./font/Lhandw.ttf");
 }
 /*http://paletton.com/#uid=1000u0kujpT00FS00dy006-Vc1c*/

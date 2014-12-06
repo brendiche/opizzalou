@@ -77,12 +77,15 @@ $('document').ready(function(){
     // }
 
 // })
-  
+    $("#submit").click(function(){
+        $("#email-form").toggle();
+        $("#overlay").toggle();  
+        $(".input").val("");
+    });
 });
   function disable(){
         $("li").removeClass();
     }
- 
 
 
     

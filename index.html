@@ -4,7 +4,6 @@
 	<link rel="stylesheet" type="text/css" href="./style/bootstrap/css/bootstrap.min.css" />
 	<link rel="stylesheet" type="text/css" href="./style/main.css" />
 	<link rel="stylesheet" type="text/css" href="./style/bandeau.css" />
-	<link rel="stylesheet" type="text/css" href="./js/ui/jquery-ui.min.css">
 	<script src="./style/bootstrap/js/jquery.min.js"></script>
 	<script src="./js/main.js"></script>
 	<title>O'pizzalou</title>
@@ -12,7 +11,17 @@
 <body>
 	<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
 		<div class="col-lg-3 col-md-3 col-xs-3 logo" >
-			<img src="./img/logo.jpg" height=80 width=100%>
+			<!-- <img src="./img/logo.jpg" height=80 width=100%> -->
+			<div class="row">
+				<div class="col-lg-12 col-md-12 col-xs-12">
+					<span class="opizalou">O'Pizzalou</span>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-10 col-md-10 col-xs-10 col-lg-offset-2 col-md-offset-2 col-xs-offset-2">
+					<span class="feu-de-bois">Pizzas cuites au feu de bois</span>
+				</div>
+			</div>
 		</div>
 		<div class="col-lg-9 col-md-9 col-xs-9 nav-rest" >
 			<img src="./img/address.png" height=30 class="nav-icon">
@@ -59,33 +68,33 @@
 			<form>
 				<div class="row row-form">
 					<div class="col-lg-6 col-md-6 col-xs-6">
-						Nom
+						<p class="txt-form">Nom</p>
 					</div>
 					<div class="col-lg-6 col-md-6 col-xs-6">
-						Email
+						<p class="txt-form">Email</p>
 					</div>
 				</div>
-				<div class="row row-form">
+				<div class="row ">
 					<div class="col-lg-6 col-md-6 col-xs-6">
-						<input type="text">
+						<input type="text" class="input">
 					</div>
 					<div class="col-lg-6 col-md-6 col-xs-6">
-						<input type="email">
+						<input type="email" class="input">
 					</div>
 				</div>
 				<div class="row row-form">
 					<div class="col-lg-12 col-md-12 col-xs-12">
-						Commentaire 
+						<p class="txt-form">Commentaire</p> 
 					</div>
 				</div>
-				<div class="row row-form">
+				<div class="row ">
 					<div class="col-lg-12 col-md-12 col-xs-12">
-						<textarea class="commentaire"></textarea>
+						<textarea class="input"></textarea>
 					</div>
 				</div>
-				<div class="row row-form">
+				<div class="row row-form" style="margin-top:20px;">
 					<div class="col-lg-12 col-md-12 col-xs-12">
-						<input type="submit">
+						<input type="submit" id="submit">
 					</div>
 				</div>
 			</form>
